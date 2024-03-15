@@ -190,3 +190,50 @@ body {
     display: inline-block;
     margin-left: 0.63rem;
 }
+
+@media (max-width: 1100px) {
+
+    #showcase {
+        height: 100vh;
+        width: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background: url("assets/showcase.webp") center center/cover;
+        background-color: rgba(0,0,0,0.4);
+        background-blend-mode: color;
+        margin: 0;
+    }
+
+    #navbar {
+        display: flex;
+        justify-content: center;
+        background-color: rgba(0,0,0,0.6);
+        color: white;
+        position: fixed;
+        top: 0;
+        width: 100vh;
+    }
+    
+    .logo {
+        height: 1.5rem;
+        width: auto;
+    }
+
+    #footer {
+        background-color: #000000;
+        color: #ffffff;
+        width: 100vh;
+        height: 80vh;
+        padding: 5rem 0;
+    }
+   
+    .footer-content {
+        display: flex;
+        width: 90vh;
+        margin: auto;
+        justify-content: space-between;
+    }
+    
+}
