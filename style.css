@@ -213,7 +213,7 @@ body {
         color: white;
         position: fixed;
         top: 0;
-        width: 100vh;
+        width: 110vh;
     }
     
     .logo {
@@ -225,15 +225,13 @@ body {
         background-color: #000000;
         color: #ffffff;
         width: 100vh;
-        height: 80vh;
-        padding: 5rem 0;
+        height: 110vh;
     }
    
     .footer-content {
         display: flex;
-        width: 90vh;
-        margin: auto;
+        width: 80vh;
         justify-content: space-between;
     }
-    
+
 }
